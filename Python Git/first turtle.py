@@ -2,7 +2,7 @@ import turtle
 
 yeet = turtle.Turtle()
 
-turtle.tracer(3)
+turtle.tracer(1)
 
 yeet.pencolor("blue")
 
