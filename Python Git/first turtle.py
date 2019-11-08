@@ -2,12 +2,12 @@ import turtle
 
 yeet = turtle.Turtle()
 
-turtle.tracer(1)
+turtle.tracer(3)
 
 yeet.pencolor("blue")
 
 def square(t,length):
-	for side in range(0,10):
+	for side in range(0,4):
 		t.forward(length)
 		t.right(90)
 		
@@ -30,12 +30,18 @@ def firstturtle():
 		x = x - 10
 		y = y + 10
 		if (count < 9):
-			tut.color("green")
+			tut.color("purple")
 		print(x,y,count)
 		if (count < 8):
-			tut.color("yellow")
+			tut.color("blue")
 		print(x,y,count)
 		if (count < 7):
+			tut.color("green")
+		print(x,y,count)
+		if (count < 5):
+			tut.color("yellow")
+		print(x,y,count)
+		if (count < 3):
 			tut.color("orange")
 		print(x,y,count)
 	hi.exitonclick()
