@@ -2,7 +2,7 @@ import turtle
 
 yeet = turtle.Turtle()
 
-turtle.tracer(1)
+turtle.tracer(3)
 
 yeet.pencolor("blue")
 
@@ -75,6 +75,10 @@ for i in range(45):
 	yeet.right(80)
 	yeet.forward(30)
 	yeet.right(70)	
+
+turtle.update()
+
+turtle.tracer(1)
 
 yeet.pencolor("#f1cd9b")
 for i in range(1):
