@@ -1,0 +1,36 @@
+<html>
+<head><title> username.github.io </title>
+<style>
+body{
+	color:#000;
+	background-color: #FCFF6F;
+	font-family: system-ui, sans-serif;
+	font-size: 18px;
+}
+	
+a{
+	background-color: #00f;color: #fff;	
+}	
+</style>
+
+
+</head>
+
+<body>
+
+<ul>
+  <ul class="nav nav-tabs">
+  <li><a href="#">Home</a></li>
+  <li><a href="mysql/">phpmyadmin</a></li>
+  <li><a href="#">Menu 2</a></li>
+  <li><a href="#">Menu 3</a></li>
+</ul>
+<center>
+<pre>
+<a href = "pcbuild.html"> Computer Build</a>
+<a href = "https://github.com/EzekielBorms?tab=repositories"> REPOS</a>
+<img src = "hanging-black-lab-puppy-statue.jpeg" alt="web no image">
+</center>
+</pre>
+</body>
+</html>
